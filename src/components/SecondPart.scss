@@ -1,0 +1,13 @@
+.second-part {
+  width: 34.3125rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .second-part {
+    width: 100%;
+  }
+}

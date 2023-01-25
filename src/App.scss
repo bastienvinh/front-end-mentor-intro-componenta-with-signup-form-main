@@ -1,0 +1,35 @@
+.content {
+  width: 90%;
+  height: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > * {
+    width: 50%;
+  }
+}
+
+.background {
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  opacity: 0.7;
+  z-index: -1;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .content {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .background {
+    background-image: url("./images/bg-intro-mobile.png");
+    top: 0;
+    left: 0;
+  }
+}
