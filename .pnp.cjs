@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/react-form", "npm:4.0.2"],\
             ["@vitejs/plugin-react", "virtual:59e18b9fa743dfcafcf2a1ebb630f33ebc28ecfc49f44617524498d601bba8337658c08c3ab4c148cb3a7dd63cc48ff16918df7c1105ad68b0b8a7b6557f730b#npm:3.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:59e18b9fa743dfcafcf2a1ebb630f33ebc28ecfc49f44617524498d601bba8337658c08c3ab4c148cb3a7dd63cc48ff16918df7c1105ad68b0b8a7b6557f730b#npm:18.2.0"],\
@@ -999,6 +1000,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/react-form", [\
+        ["npm:4.0.2", {\
+          "packageLocation": "./.yarn/cache/@types-react-form-npm-4.0.2-0bfd5c0a34-26a1d69094.zip/node_modules/@types/react-form/",\
+          "packageDependencies": [\
+            ["@types/react-form", "npm:4.0.2"],\
+            ["@types/react", "npm:18.0.27"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/scheduler", [\
         ["npm:0.16.2", {\
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",\
@@ -1813,6 +1824,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["intro-componenta-with-signup-form-main", "workspace:."],\
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/react-form", "npm:4.0.2"],\
             ["@vitejs/plugin-react", "virtual:59e18b9fa743dfcafcf2a1ebb630f33ebc28ecfc49f44617524498d601bba8337658c08c3ab4c148cb3a7dd63cc48ff16918df7c1105ad68b0b8a7b6557f730b#npm:3.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:59e18b9fa743dfcafcf2a1ebb630f33ebc28ecfc49f44617524498d601bba8337658c08c3ab4c148cb3a7dd63cc48ff16918df7c1105ad68b0b8a7b6557f730b#npm:18.2.0"],\

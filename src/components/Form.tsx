@@ -12,8 +12,6 @@ function validateNotEmpty(name: any, instance: any) {
 }
 
 function validateEmail(email: string, instance: any) {
-  console.log(instance)
-
   const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
   if (!emailRegex.test(email)) {
     return "Look like this is not an email"
